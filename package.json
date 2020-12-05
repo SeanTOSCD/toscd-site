@@ -1,0 +1,28 @@
+{
+  "name": "toscd-site",
+  "version": "1.0.0",
+  "description": "Active WordPress theme for TOSCD",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sdavismedia/toscd-site.git"
+  },
+  "author": "Sean Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdavismedia/toscd-site/issues"
+  },
+  "homepage": "https://github.com/sdavismedia/toscd-site",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-svgstore": "^2.0.0"
+  },
+  "dependencies": {}
+}
