@@ -31,11 +31,19 @@
 			<div class="site-header-main">
 
 				<div class="site-branding">
-					<?php if ( is_front_page() && is_home() ) : ?>
-						<h1 class="site-title"><img title="TOSCD - Home" rel="home" class="site-logo" src="<?php echo TOSCD_IMAGES . 'sd-logo-full.svg'; ?>"></h1>
-					<?php else : ?>
-						<p class="site-title"><img title="TOSCD - Home" rel="home" class="site-logo" src="<?php echo TOSCD_IMAGES . 'sd-logo-full.svg'; ?>"></p>
-					<?php endif; ?>
+					<?php
+					$logo_to_home = '<a href="' . TOSCD_SITE_HOME . '"><img title="TOSCD - Home" rel="home" class="site-logo" src="' . TOSCD_IMAGES . 'sd-logo-full.svg"></a>';
+
+					if ( is_front_page() && is_home() ) :
+						?>
+						<h1 class="site-title"><?php echo $logo_to_home; ?></h1>
+						<?php
+					else :
+						?>
+						<p class="site-title"><?php echo $logo_to_home; ?></p>
+						<?php
+					endif;
+					?>
 					<p class="site-description"><?php echo get_bloginfo( 'description', 'display' ); ?></p>
 				</div><!-- .site-branding -->
 

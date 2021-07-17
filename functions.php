@@ -4,6 +4,7 @@
  */
 
 define( 'TOSCD_SITE_VERSION', '1.0.0' );
+define( 'TOSCD_SITE_HOME', trailingslashit( home_url() ) );
 
 define( 'TOSCD_ROOT', dirname(__FILE__) );
 define( 'TOSCD_INCLUDES', TOSCD_ROOT . '/includes/' );
