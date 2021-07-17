@@ -5,7 +5,14 @@ body {
 		font-size: 18px;
 	}
 
-	.site {
+	& #page {
+
+		@media all and ( min-width: 1100px ) {
+			margin: 3rem;
+		}
+	}
+
+	& .site {
 		border: 2px solid @gray;
 		border-radius: 14px;
 	}
