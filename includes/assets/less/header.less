@@ -9,9 +9,13 @@
 			width: 100%;
 
 			& .site-logo {
-				width: 130px;
+				width: 180px;
 				height: 25px;
 				margin-bottom: 10px;
+
+				@media all and ( min-width: 560px ) {
+					width: 130px;
+				}
 			}
 
 			& .site-description {
