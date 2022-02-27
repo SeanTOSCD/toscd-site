@@ -32,7 +32,7 @@
 
 				<div class="site-branding">
 					<?php
-					$logo_to_home = '<a href="' . TOSCD_SITE_HOME . '"><img title="TOSCD - Home" rel="home" class="site-logo" src="' . TOSCD_IMAGES . 'sd-logo-full.svg"></a>';
+					$logo_to_home = '<a href="' . TOSCD_SITE_HOME . '"><img title="TOSCD - Home" rel="home" class="site-logo" src="' . TOSCD_IMAGES . 'sd-logo-full-gray-text.svg"></a>';
 
 					if ( is_front_page() && is_home() ) :
 						?>
